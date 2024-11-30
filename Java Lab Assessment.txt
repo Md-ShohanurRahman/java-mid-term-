@@ -1,0 +1,19 @@
+Create a Java program to manage a National Football Team. The team consists of players categorized into four groups: Goalkeepers, Defenders, Midfielders, and Forwards. Each player in the team has common attributes such as:
+
+1. Name (String)
+2. Player Number (int)
+3. Age (int)
+4. Nationality (String)
+
+In addition to these shared attributes, players from each category (goalkeepers, defenders, midfielders, forwards) have unique skills or responsibilities:
+
+1. Goalkeepers have a special attribute cleanSheets (int) to track the number of clean sheets (matches without conceding goals).
+2. Defenders have an attribute tacklesMade (int) to track the number of tackles completed.
+3. Midfielders have an attribute assists (int) to track the number of assists provided.
+4. Forwards have an attribute goalsScored (int) to track the number of goals scored.
+
+Use inheritance to define the relationship, and apply encapsulation to ensure data protection. Implement getter and setter methods for all attributes, and demonstrate how to:
+
+Add players to the respective categories.
+Display details of all players in the team.
+Update and retrieve individual statistics (e.g., clean sheets, goals scored).
